@@ -1,0 +1,16 @@
+.number{
+    display: flex;
+    flex-direction: column;
+    .item{
+        flex: 0 0 80px;
+        background: lightblue;
+        display: flex;
+        flex-direction: row;
+        font-size: 50px;
+        border-bottom: 1px solid ;
+        margin-bottom: 5px;
+        padding: 5px;
+        align-items: center;
+        justify-content: center;
+    }
+}

@@ -1,0 +1,57 @@
+@import "~taro-ui/dist/style/components/calendar.scss";
+
+.plan {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+
+  .header {
+    width: 100%;
+    border-top: 1px solid  rgb(170, 170, 238) ;
+    flex-grow: 0 0 100px;
+    display: flex;
+    font-size: 45px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+
+  }
+
+  .scroll {
+    flex: 0 0 100px;
+    border: 1px solid rgb(170, 170, 238);
+    overflow: hidden;
+
+    .scroll-item {
+      height: 80px;
+      line-height: 80px;
+      display: flex;
+      flex-direction: row;
+      margin-top: 10px;
+     .date-item{
+         height: 80px;
+         flex: 0 0 80px;
+         padding: 5px;
+         border-radius: 50%;
+         background: rgb(151, 151, 250);
+         text-align: center;
+         color: #fff;
+         font-size: 40px;
+         margin: 0 10px;
+     }
+     .date-item.active{
+         background: coral;
+         .text-active{
+            color: #fff;
+        }
+     }
+     .text-active{
+        color: black;
+        font-weight: 600;
+    }
+    }
+  }
+
+
+}

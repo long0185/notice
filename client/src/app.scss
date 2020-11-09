@@ -1,0 +1,20 @@
+@import './assets/iconfont/iconfont.css';
+@import '//at.alicdn.com/t/font_1316478_bn59tvkxh04.css';
+
+html,
+body,
+#container,
+.taro-tabbar__panel,
+#app,
+#app > div,
+.taro_page {
+  height: 100%;
+  width: 100%;
+}
+page {
+    font-size: $body-font-size;
+    font-family: $body-font-famify;
+    color: $color-333;
+    box-sizing: border-box;
+    height: 100%;
+  }

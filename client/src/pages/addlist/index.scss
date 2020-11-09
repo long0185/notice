@@ -1,0 +1,70 @@
+@import "~taro-ui/dist/style/components/form.scss";
+@import "~taro-ui/dist/style/components/button.scss";
+@import "~taro-ui/dist/style/components/input.scss";
+@import "~taro-ui/dist/style/components/switch.scss";
+
+.form {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+  background:#fff;
+  justify-content: start;
+//   align-items: center;
+  .header{
+      text-align: center;
+      font-size: 35px;
+  }
+  .time {
+    // flex: 0 0 20vh;
+    height: 80px;
+    line-height: 80px;
+    background: aliceblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 20px;
+    font-size: 35px;
+    margin: 15px 0;
+    vertical-align: middle;
+  }
+
+  .date {
+    height: 80px;
+    line-height: 80px;
+    background: aliceblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 20px;
+    font-size: 35px;
+    margin: 15px 0;
+    vertical-align: middle;
+  }
+  .notice{
+    background: aliceblue;
+    height: 80px;
+    line-height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    .notice-item{
+      width: 100%;
+      margin-left: 0;
+      padding: 0 20px;
+      // .at-switch{
+      //   margin-left: 0;
+      //   padding: 0;
+      // }
+      .at-switch__title{
+        font-size: 35px;
+       
+      }
+    }
+  }
+  .btn{
+    margin-top: 150px;
+  }
+}
